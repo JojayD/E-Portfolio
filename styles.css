@@ -132,8 +132,8 @@ nav,
 }
 
 .dark-theme .mail__btn{
-  background-color: white;
-  color: #242424;
+  background-color: #787878	;
+  color: white;
 }
 
 .dark-theme #personal-logo{
@@ -205,19 +205,18 @@ nav,
 }
 
 .mail__btn{
-  width: 70px;
-  height: 70px;
+  width: 25px;
+  height: 25px;
   font-size: 32px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: none;
-  background-color: #242424;
+  background-color: rgb(245, 245, 245);
   position: absolute;
   color: white;
   bottom: 32px;
   right: 40px;
   z-index: 100;
   position: fixed;
-  box-shadow: 0 12px 30px 0 rgb(0,0,0,0.5);
 }
 
 .scroll{

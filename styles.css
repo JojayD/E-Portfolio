@@ -126,7 +126,10 @@ nav,
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-adjust,
-.dark-theme .header__para {
+.dark-theme .header__para,
+.dark-theme .experience-item-card,
+.dark-theme h2,
+.dark-theme .logo-name{
 	color: white;
 }
 
@@ -150,6 +153,7 @@ nav,
 .dark-theme .scroll__icon::after {
 	background-color: white;
 }
+
 /* LANDING PAGE */
 
 #landing-page {
@@ -166,6 +170,10 @@ nav,
 }
 
 /* DELETE IF YOU WANT, makes the items align in the middle */
+
+.experience-li{
+	text-align: center;
+}
 
 .header__content {
 	display: flex;
@@ -771,4 +779,48 @@ SHAPES
 
 .social__link-file {
 	position: relative;
+}
+
+/**
+ * Experience Section
+ */
+
+ #experience h2{
+	 text-align: center;
+ }
+
+#experience {
+	color: #ffffff;
+	padding: 60px 20px;
+}
+
+#experience .container {
+	color: black;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.experience-item-card {
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item-card h3 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.experience-item-card p {
+	font-size: 16px;
+	margin: 5px 0;
+}
+
+.experience-item-card span {
+	font-size: 14px;
+	color: #bbbbbb;
+	float: right;
 }

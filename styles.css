@@ -133,6 +133,8 @@ nav,
 	color: white;
 }
 
+
+
 .dark-theme section {
 	background-color: #242424;
 }
@@ -221,7 +223,7 @@ nav,
 	font-size: 32px;
 	/* border-radius: 50%; */
 	border: none;
-	background-color: rgb(245, 245, 245);
+	background-color: transparent;
 	position: absolute;
 	color: white;
 	bottom: 32px;
@@ -787,9 +789,11 @@ SHAPES
 
  #experience h2{
 	 text-align: center;
+	 z-index: 1;
  }
 
 #experience {
+	position: relative;
 	color: #ffffff;
 	padding: 60px 20px;
 }
@@ -806,6 +810,8 @@ SHAPES
 	margin-bottom: 30px;
 	border-radius: 8px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	position: relative;
+
 }
 
 .experience-item-card h3 {

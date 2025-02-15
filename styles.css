@@ -129,11 +129,9 @@ nav,
 .dark-theme .header__para,
 .dark-theme .experience-item-card,
 .dark-theme h2,
-.dark-theme .logo-name{
+.dark-theme .logo-name {
 	color: white;
 }
-
-
 
 .dark-theme section {
 	background-color: #242424;
@@ -173,7 +171,7 @@ nav,
 
 /* DELETE IF YOU WANT, makes the items align in the middle */
 
-.experience-li{
+.experience-li {
 	text-align: center;
 }
 
@@ -787,10 +785,10 @@ SHAPES
  * Experience Section
  */
 
- #experience h2{
-	 text-align: center;
-	 z-index: 1;
- }
+#experience h2 {
+	text-align: center;
+	z-index: 1;
+}
 
 #experience {
 	position: relative;
@@ -811,7 +809,6 @@ SHAPES
 	border-radius: 8px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 	position: relative;
-
 }
 
 .experience-item-card h3 {
@@ -831,110 +828,121 @@ SHAPES
 	float: right;
 }
 
-
 /* General responsive adjustments */
 @media (max-width: 768px) {
-  /* Update existing rules */
-  .title {
-    font-size: 60px;
-    text-align: center;
-  }
+	/* Update existing rules */
+	.title {
+		font-size: 60px;
+		text-align: center;
+	}
 
-  .header__para {
-    font-size: 18px;
-    padding: 0 20px;
-  }
+	.header__para {
+		font-size: 18px;
+		padding: 0 20px;
+	}
 
-  /* Navigation adjustments */
-  .nav__link--list {
-    display: none;
-    position: fixed;
-    background: white;
-    width: 100%;
-    top: 70px;
-    left: 0;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
+	/* Navigation adjustments */
+	.nav__link--list {
+		display: none;
+		position: fixed;
+		background: white;
+		width: 100%;
+		top: 70px;
+		left: 0;
+		padding: 20px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	}
 
-  .nav__link {
-    margin: 15px 0;
-    display: block;
-    text-align: center;
-  }
+	.nav__link {
+		margin: 15px 0;
+		display: block;
+		text-align: center;
+	}
 
-  /* Project adjustments */
-  .project__wrapper {
-    margin: 0 20px;
-  }
+	/* Project adjustments */
+	.project__wrapper {
+		margin: 0 20px;
+	}
 
-  .project__description {
-    left: 30px;
-    padding: 20px;
-  }
+	.project__description {
+		left: 30px;
+		padding: 20px;
+	}
 
-  .project__description--title {
-    font-size: 30px;
-  }
+	.project__description--title {
+		font-size: 30px;
+	}
 
-  /* Experience section */
-  .experience-item-card {
-    margin: 20px;
-  }
+	/* Experience section */
+	.experience-item-card {
+		margin: 20px;
+	}
+	.social__link {
+		width: 32px;
+		height: 32px;
+	}
+
+	.social__link img {
+		max-width: 24px;
+	}
 }
 
 /* Small phones */
 @media (max-width: 480px) {
-  /* Update existing rules */
-  .title {
-    font-size: 40px;
-  }
+	/* Update existing rules */
+	.title {
+		font-size: 40px;
+	}
 
-  .header__para {
-    font-size: 16px;
-  }
+	.header__para {
+		font-size: 16px;
+	}
 
-  /* Modal adjustments */
-  .modal__language {
-    width: 50%;
-  }
+	/* Modal adjustments */
+	.modal__language {
+		width: 50%;
+	}
 
-  .modal__half {
-    padding: 20px;
-  }
+	.modal__half {
+		padding: 20px;
+	}
 
-  /* Social links */
-  .social__list {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+	/* Social links */
+	.social__list {
+		gap: 8px; /* Reduce spacing */
+	}
 
-  .social__link {
-    margin: 8px;
-  }
+	.social__link {
+		width: 28px;
+		height: 28px;
+	}
 
-  /* Project adjustments */
-  .project__description {
-    left: 0;
-    padding: 15px;
-  }
+	.social__link img {
+		max-width: 20px;
+	}
 
-  .project__description--title {
-    font-size: 24px;
-  }
+	/* Project adjustments */
+	.project__description {
+		left: 0;
+		padding: 15px;
+	}
 
-  /* Shape adjustments */
-  .shape {
-    display: none;
-  }
-  
-  /* Footer adjustments */
-  .footer__social--list {
-    flex-direction: column;
-    align-items: center;
-  }
+	.project__description--title {
+		font-size: 24px;
+	}
 
-  .footer__social--link {
-    margin: 10px 0;
-  }
+	/* Shape adjustments */
+	.shape {
+		display: none;
+	}
+
+	/* Footer adjustments */
+	.footer__social--list {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer__social--link {
+		margin: 10px 0;
+	}
 }

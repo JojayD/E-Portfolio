@@ -830,3 +830,111 @@ SHAPES
 	color: #bbbbbb;
 	float: right;
 }
+
+
+/* General responsive adjustments */
+@media (max-width: 768px) {
+  /* Update existing rules */
+  .title {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .header__para {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  /* Navigation adjustments */
+  .nav__link--list {
+    display: none;
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .nav__link {
+    margin: 15px 0;
+    display: block;
+    text-align: center;
+  }
+
+  /* Project adjustments */
+  .project__wrapper {
+    margin: 0 20px;
+  }
+
+  .project__description {
+    left: 30px;
+    padding: 20px;
+  }
+
+  .project__description--title {
+    font-size: 30px;
+  }
+
+  /* Experience section */
+  .experience-item-card {
+    margin: 20px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  /* Update existing rules */
+  .title {
+    font-size: 40px;
+  }
+
+  .header__para {
+    font-size: 16px;
+  }
+
+  /* Modal adjustments */
+  .modal__language {
+    width: 50%;
+  }
+
+  .modal__half {
+    padding: 20px;
+  }
+
+  /* Social links */
+  .social__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social__link {
+    margin: 8px;
+  }
+
+  /* Project adjustments */
+  .project__description {
+    left: 0;
+    padding: 15px;
+  }
+
+  .project__description--title {
+    font-size: 24px;
+  }
+
+  /* Shape adjustments */
+  .shape {
+    display: none;
+  }
+  
+  /* Footer adjustments */
+  .footer__social--list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__social--link {
+    margin: 10px 0;
+  }
+}
